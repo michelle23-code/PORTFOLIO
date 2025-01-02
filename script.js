@@ -6,3 +6,9 @@ function openMenu(){
 function closeMenu(){
     sideMenu.style.transform = 'translateX(16rem)';
 }
+
+window.addEventListener('scroll', ()=>{
+    if(scrollY > 50){
+        
+    }
+})
