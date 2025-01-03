@@ -6,13 +6,17 @@
     <title>PONTSHO LEKOTO - PORTFOLIO</title>
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="./tailwind.config.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
 </head>
-<body class="over-flow-x-hidden">
+<body class="over-flow-x-hidden font-Outfit">
   <div class="fixed top-0 right-0 w-11/12 -z-10 translate-x-[-80%]">
     <img src="./portfolio_images/images/header-bg-color.png" alt="" class="w-full ">
   </div>
     <nav class="w-full fixed px-5 lg:px-8 xl:px[8%]  py-4 flex items-center justify-between z-50">
         <img src="./portfolio_images/images.logo.png" alt="logo" class="w-28 cursor-pointer">
+
         <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
             <li><a href="#top">Home</a></li>
             <li><a href="#about">About Me</a></li>
@@ -77,7 +81,7 @@
                  <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0
                  rounded-full -translate-x-1/4 translate-y-1/3  shadow-[0_4px_55px_rgba(149,0,162,0,15)]
                  flex items-center justify-center">
-                    <img src="./portfolio_images/images/circular-text.png" alt="" class="w-full">
+                    <img src="./portfolio_images/images/circular-text.png" alt="" class="w-full animate-spin_slow">
                     <img src="./portfolio_images/images/dev-icon.png" alt="" class="w-1/4 absolute top-1/2
                     left-1/2 -translate-x-1/2 -translate-y-1/2">
                  </div>
@@ -140,7 +144,7 @@
             I offer a wide range of services to help you grow your bussiness and make your online prensence
             more visible to your customers.
         </p>
-        <div class="grid grid-cols-4 gap-6 my-10 ">
+        <div class="grid grid-cols-auto gap-6 my-10 ">
             <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer
             hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
             <img src="./portfolio_images/images/web-icon.png" alt="" class="w-10">
@@ -184,7 +188,7 @@
             Welcome to my portfolio! Explore a collection of projects showcasting my expertise 
             in front-end development.
         </p>
-        <div class="grid grid-cols-4 my-10 gap-5">
+        <div class="grid grid-cols-auto my-10 gap-5">
            <div class="aspect-square bg-[url('./portfolio_images/images/work-1.png')] bg=no-repeat bg-cover bg-center
            rounded-lg relative cursor-pointer group">
 
